@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #404040;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+}
+	
+	
+.container {
+    margin: auto;
+	width:1140px;
+	/*	top right bottom left*/
+}
+
+h1 {
+	padding: 30px;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+}
+
+#logo {
+	float: center;
+	padding: 50px;
+	font-size: 60px;
+	color: white;
+}
+hr {
+	border-style: dotted;
+	color: white;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #0d0d0d;
+	color: white;
+	font-size: 24px;
+	padding: 40px;
+	
+}
+
+.flex-container {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	align: center;
+}
+
+.flex-container a {
+	text-decoration: none;
+}
+ 
+figure img {
+	height: 350px;
+	width: 350px;
+	margin: 20px;
+}
+
+figure p {
+	margin: 20px 20px;20px;
+	text-align: justify;
+	font-size: 20px;
+	color: white;
+	
+}
+
+	/* ALBUM1 */
+	
+.artist {
+		text-transform: uppercase;
+		color: white;
+		font-size: 20px;
+}
+
+.subtitle {
+	padding: 8px 16px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+	color: white;
+	font-size: 20px;
+}
+.previous {
+	margin-top: 30px;
+}
+.table, td {
+    border-: 2px solid white;
+	style: white;
+	color: white;
+	padding: 8px 16px;
+}
+
+td {
+	height: 50px;
+	border-top: 2px solid white;
+}
+
+td:nth-child(1){
+	font-weight: bold;
+}
+table {
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+.table style {
+	font color: white;
+
+}
